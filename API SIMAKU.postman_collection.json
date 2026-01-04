@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f0c82191-5174-4601-89aa-db6e91ea163a",
+		"name": "API SIMAKU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "51083544",
+		"_collection_link": "https://alyssadpi10-1834163.postman.co/workspace/Alyssa-Deffra-Putri-Indaru's-Wo~f0087536-112f-4c11-857d-778640d68d10/collection/50959327-f0c82191-5174-4601-89aa-db6e91ea163a?action=share&source=collection_link&creator=51083544"
+	},
+	"item": [
+		{
+			"name": "Login Simaku",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://requisitely-dorsoventral-kandis.ngrok-free.dev/simaku/index.php?ngrok-skip-browser-warning=true",
+					"protocol": "https",
+					"host": [
+						"requisitely-dorsoventral-kandis",
+						"ngrok-free",
+						"dev"
+					],
+					"path": [
+						"simaku",
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "ngrok-skip-browser-warning",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
